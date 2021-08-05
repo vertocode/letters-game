@@ -21,15 +21,15 @@ int main(void)
     //print res
     if (score1 > score2)
     {
-        printf("Player 1 wins!\n");
+        printf("Congratulations to player 1, You won!\n");
     }
     else if (score2 > score1)
     {
-        printf("Player 2 wins!\n");
+        printf("Congratulations to player 2, You won!\n");
     }
     else
     {
-        printf("Tie!\n");
+        printf("There was a tie between players!\n");
     }
 }
 
